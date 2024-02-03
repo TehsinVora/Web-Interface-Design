@@ -1,0 +1,80 @@
+<!-- Research the topic of protected areas (conservation areas) around the world and create a webpage about this topic. (https://www.iucn.org/theme/protected-areas/about)
+
+Create an HTML document called assignment2.html that has the following features (80% of mark):
+has a title (e.g. “Websites about Protected Areas Issues”) in H3 and a related image to create a banner at the top of the screen.
+has an introductory paragraph on the topic and its importance in today’s world. 
+displays a bulleted list of 6 hyperlinks to websites covering related issues and strategies. Make sure that each hyperlink listed is functional and it displays the chosen page of the selected website.
+enhances the look of the web page with a background color. 
+uses the Verdana (or another Sans Serif) font for the entire page.
+includes in your document an HTML comment (embedded in your HTML code) showing your name and student number.
+has a copyright line at the bottom of the page with your student info, assignment info, and credits to the websites from which you acquired pictures and information for your assignment.
+centers the content of the web page in the browser window. 
+
+(20% of mark) You are encouraged to add additional features (e.g. additional pictures and text content, colored fonts, horizontal rulers, graphics bullets, etc.) to further enhance the content and visual appeal of assignment, according to your own creative skills.
+Upload your assignment2.html file to the studentweb server and modify your index.html file to contain a hyperlink to it as illustrated below.  -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Websites about Protected Areas Issues</title>
+  <style>
+    body {
+      background-color: #f7c195;
+      font-family: 'Verdana', sans-serif;
+      text-align: center;
+    }
+
+    header {
+      background-color: #339966;
+      padding: 20px;
+      color: rgb(0, 0, 0);
+      font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    }
+
+    main {
+      margin: 10px;
+    }
+
+    footer {
+      background-color: #339966;
+      padding: 10px;
+      color: white;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <marquee behavior="safeguard" direction="left" style="color: red; font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; font-size: large; font-style: oblique;">THIS PAGE IS ABOUT PROTECTED AREAS ISSUES!!!</marquee>
+    <h3>Websites about Protected Areas Issues</h3>
+    <img src="banner2.jpg" alt="Banner Image" style="height:100px; width: 400px;">
+  </header>
+
+  <main>
+    <p>Human activity, mostly for food production and forestry, is transforming landscapes. Today, one third of all land is degraded or degrading, which harms biodiversity and jeopardises essential ecosystem services such as carbon storage. Protected areas offer a solution. If effectively managed and fairly governed, such areas can safeguard nature and cultural resources, protect human health and well-being, provide sustainable livelihoods and so support sustainable development.</p>
+ <img src="forest.jpg" alt="Banner Image" style="height:100px; width: 200px;">
+ <hr style="border-color: black;">
+    <ul>
+      <li><a href="https://www.iucn.org/our-work/topic/agriculture-and-soil-biodiversity" target="_blank">agriculture-and-soil-biodiversity</a></li>
+      <li><a href="https://www.iucn.org/our-work/topic/drylands-and-land-degradation" target="_blank">drylands-and-land-degradation</a></li>
+      <li><a href="https://www.iucn.org/our-work/topic/effective-protected-areas" target="_blank">effective-protected-areas</a></li>
+      <li><a href="https://www.iucn.org/our-work/topic/forests" target="_blank">forests</a></li>
+      <li><a href="https://www.iucn.org/our-work/topic/livelihoods-and-sustainable-use" target="_blank">livelihoods-and-sustainable-use</a></li>
+      <li><a href="https://www.iucn.org/our-work/topic/marine-ecosystems" target="_blank">Marine ecosystem</a></li>
+    </ul>
+  </main>
+
+  <footer style="color: black; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
+    © 2024 Tehsin Vora | 301318698 | Assignment 2 | Image credits: Protected areas and land use. (n.d.). IUCN. https://www.iucn.org/our-work/protected-areas-and-land-use
+  </footer>
+
+</body>
+
+</html>
